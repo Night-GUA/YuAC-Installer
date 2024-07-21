@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AllDoneTips" xml:space="preserve">
-    <value>安装完成，感谢您对 TONX 的支持！</value>
+    <value>安装完成，感谢您对 YuAC 的支持！</value>
   </data>
   <data name="DeleteUnusedPluginsWarning" xml:space="preserve">
     <value>若继续，以下已安装的模组将被删除</value>
@@ -130,7 +130,7 @@
     <value>BepInEx 下载失败</value>
   </data>
   <data name="Download.TONX.Failed" xml:space="preserve">
-    <value>TONX 下载失败</value>
+    <value>YuAC 下载失败</value>
   </data>
   <data name="Download.TONX.Requesting" xml:space="preserve">
     <value>正在请求下载 TONX</value>
@@ -166,13 +166,13 @@
     <value>等待下载 BepInEx</value>
   </data>
   <data name="Install.TONX.Done" xml:space="preserve">
-    <value>已安装 TONX</value>
+    <value>已安装 YuAC</value>
   </data>
   <data name="Install.TONX.Downloading" xml:space="preserve">
-    <value>正在下载 TONX</value>
+    <value>正在下载 YuAC</value>
   </data>
   <data name="Install.TONX.Pending" xml:space="preserve">
-    <value>等待下载 TONX</value>
+    <value>等待下载 YuAC</value>
   </data>
   <data name="InvalidGameFolderTips" xml:space="preserve">
     <value>无效的 Among Us 目录</value>
@@ -195,10 +195,13 @@
   <data name="SelectDownloadChennel" xml:space="preserve">
     <value>下载渠道</value>
   </data>
+  <data name="ThanksKPD" xml:space="preserve">
+    <value>感谢 KPD 提供的 TONX 一键安装器</value>
+  </data>
   <data name="Timeout" xml:space="preserve">
     <value>超时</value>
   </data>
-  <data name="TownOfNextInstaller" xml:space="preserve">
-    <value>TONX 一键安装器</value>
+  <data name="YuACInstaller" xml:space="preserve">
+    <value>YuAC 一键安装器</value>
   </data>
 </root>

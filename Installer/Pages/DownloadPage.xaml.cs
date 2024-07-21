@@ -59,8 +59,8 @@ public sealed partial class DownloadPage : Page, IPage
         thread.Start();
     }
 
-    private const string BepInExDownloadUrl = "https://builds.bepinex.dev/projects/bepinex_be/674/BepInEx-Unity.IL2CPP-win-x86-6.0.0-be.674%2B82077ec.zip";
-    private static string BepInExTempPath = Path.GetTempPath() + @"TONX.Installer.BepInEx.zip";
+    private const string BepInExDownloadUrl = "https://builds.bepinex.dev/projects/bepinex_be/688/BepInEx-Unity.IL2CPP-win-x86-6.0.0-be.688%2B4901521.zip";
+    private static string BepInExTempPath = Path.GetTempPath() + @"YuAC.Installer.BepInEx.zip";
 
     private static List<string> GameFilesWhiteList = new()
     {
@@ -158,9 +158,9 @@ public sealed partial class DownloadPage : Page, IPage
 
     SkippedBepInEx:
 
-        //обть TONX.dll
+        //обть YuAntiCheat.dll
         DownloadingPlugin = true; DownloadingBepInEx = false;
-        string pluginPath = pluginsPath + "/TONX.dll";
+        string pluginPath = pluginsPath + "/YuAntiCheat.dll";
         if (!Directory.Exists(pluginsPath)) Directory.CreateDirectory(pluginsPath);
         UpdatePluginProgress(Lang.Download_TONX_Requesting, null);
         string pluginUrl = SelectDownlaodChannelPage.SelectedChannel.URLFunc.Invoke();

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AllDoneTips" xml:space="preserve">
-    <value>Thank you for installing TONX!</value>
+    <value>Thank you for installing YuAC!</value>
   </data>
   <data name="DeleteUnusedPluginsWarning" xml:space="preserve">
     <value>The following mods will be removed after continuing</value>
@@ -130,10 +130,10 @@
     <value>Failed to downloading BepInEx</value>
   </data>
   <data name="Download.TONX.Failed" xml:space="preserve">
-    <value>Failed to downloading TONX</value>
+    <value>Failed to downloading YuAC</value>
   </data>
   <data name="Download.TONX.Requesting" xml:space="preserve">
-    <value>Requesting download TONX</value>
+    <value>Requesting download YuAC</value>
   </data>
   <data name="DownloadChannel.Gitee.Desc" xml:space="preserve">
     <value>The version is relatively backward</value>
@@ -166,13 +166,13 @@
     <value>Install BepInEx: Pending</value>
   </data>
   <data name="Install.TONX.Done" xml:space="preserve">
-    <value>TONX Installed</value>
+    <value>YuAC Installed</value>
   </data>
   <data name="Install.TONX.Downloading" xml:space="preserve">
-    <value>Downloading TONX</value>
+    <value>Downloading YuAC</value>
   </data>
   <data name="Install.TONX.Pending" xml:space="preserve">
-    <value>Install TONX: Pending</value>
+    <value>Install YuAC: Pending</value>
   </data>
   <data name="InvalidGameFolderTips" xml:space="preserve">
     <value>Invalid Among Us game folder</value>
@@ -195,10 +195,13 @@
   <data name="SelectDownloadChennel" xml:space="preserve">
     <value>Download channel</value>
   </data>
+  <data name="ThanksKPD" xml:space="preserve">
+    <value>Thank KARPED1EM!</value>
+  </data>
   <data name="Timeout" xml:space="preserve">
     <value>Timeout</value>
   </data>
-  <data name="TownOfNextInstaller" xml:space="preserve">
-    <value>TONX Installer</value>
+  <data name="YuACInstaller" xml:space="preserve">
+    <value>YuAC Installer</value>
   </data>
 </root>

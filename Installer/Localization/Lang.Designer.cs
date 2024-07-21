@@ -61,7 +61,7 @@ namespace Installer.Localization {
         }
         
         /// <summary>
-        ///   查找类似 Thank you for installing TONX! 的本地化字符串。
+        ///   查找类似 Thank you for installing YuAC! 的本地化字符串。
         /// </summary>
         public static string AllDoneTips {
             get {
@@ -97,7 +97,7 @@ namespace Installer.Localization {
         }
         
         /// <summary>
-        ///   查找类似 Failed to downloading TONX 的本地化字符串。
+        ///   查找类似 Failed to downloading YuAC 的本地化字符串。
         /// </summary>
         public static string Download_TONX_Failed {
             get {
@@ -106,7 +106,7 @@ namespace Installer.Localization {
         }
         
         /// <summary>
-        ///   查找类似 Requesting download TONX 的本地化字符串。
+        ///   查找类似 Requesting download YuAC 的本地化字符串。
         /// </summary>
         public static string Download_TONX_Requesting {
             get {
@@ -205,7 +205,7 @@ namespace Installer.Localization {
         }
         
         /// <summary>
-        ///   查找类似 TONX Installed 的本地化字符串。
+        ///   查找类似 YuAC Installed 的本地化字符串。
         /// </summary>
         public static string Install_TONX_Done {
             get {
@@ -214,7 +214,7 @@ namespace Installer.Localization {
         }
         
         /// <summary>
-        ///   查找类似 Downloading TONX 的本地化字符串。
+        ///   查找类似 Downloading YuAC 的本地化字符串。
         /// </summary>
         public static string Install_TONX_Downloading {
             get {
@@ -223,7 +223,7 @@ namespace Installer.Localization {
         }
         
         /// <summary>
-        ///   查找类似 Install TONX: Pending 的本地化字符串。
+        ///   查找类似 Install YuAC: Pending 的本地化字符串。
         /// </summary>
         public static string Install_TONX_Pending {
             get {
@@ -295,6 +295,15 @@ namespace Installer.Localization {
         }
         
         /// <summary>
+        ///   查找类似 Thank KARPED1EM! 的本地化字符串。
+        /// </summary>
+        public static string ThanksKPD {
+            get {
+                return ResourceManager.GetString("ThanksKPD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Timeout 的本地化字符串。
         /// </summary>
         public static string Timeout {
@@ -304,11 +313,11 @@ namespace Installer.Localization {
         }
         
         /// <summary>
-        ///   查找类似 TONX Installer 的本地化字符串。
+        ///   查找类似 YuAC Installer 的本地化字符串。
         /// </summary>
-        public static string TownOfNextInstaller {
+        public static string YuACInstaller {
             get {
-                return ResourceManager.GetString("TownOfNextInstaller", resourceCulture);
+                return ResourceManager.GetString("YuACInstaller", resourceCulture);
             }
         }
     }

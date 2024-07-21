@@ -110,7 +110,7 @@ public class ModDownloadChannel : IComparable<ModDownloadChannel>
                 RootURL = "github.com",
                 URLFunc = () =>
                 {
-                    return "https://github.com/KARPED1EM/TownOfNext/releases/latest/download/TONX.dll";
+                    return "https://github.com/Night-GUA/YuAntiCheat/releases/latest/download/YuAntiCheat.dll";
                 }
             },
             new()
@@ -122,9 +122,9 @@ public class ModDownloadChannel : IComparable<ModDownloadChannel>
                 {
                     try
                     {
-                        string jsRaw = SelectDownlaodChannelPage.Get("https://gitee.com/api/v5/repos/leeverz/TownOfNext/releases/latest");
+                        string jsRaw = SelectDownlaodChannelPage.Get("https://gitee.com/api/v5/repos/xigua_ya/YuAntiCheat/releases/latest");
                         string latestVer = JsonObject.Parse(jsRaw).GetNamedValue("tag_name").ToString().TrimStart('"').TrimEnd('"');
-                        return $"https://gitee.com/leeverz/TownOfNext/releases/download/{latestVer}/TONX.dll";
+                        return $"https://gitee.com/xigua_ya/YuAntiCheat/releases/download/{latestVer}/YuAntiCheat.dll";
                     }
                     catch
                     {
