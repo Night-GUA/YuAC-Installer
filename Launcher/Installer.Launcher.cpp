@@ -85,10 +85,10 @@ int wmain(int argc, wchar_t* argv[])
 	else
 	{
 		SetProcessDPIAware();
-		auto ok = MessageBox(NULL, L"Installer files not found.\r\nWould you like to download it now?\r\nhttps://github.com/KARPED1EM/TONX-Installer", L"TONX-Installer", MB_ICONWARNING | MB_OKCANCEL);
+		auto ok = MessageBox(NULL, L"Installer files not found.\r\nWould you like to download it now?\r\nhttps://github.com/KARPED1EM/TONX-Installer", L"YuAC-Installer", MB_ICONWARNING | MB_OKCANCEL);
 		if (ok == IDOK)
 		{
-			ShellExecute(NULL, NULL, L"https://github.com/KARPED1EM/TONX-Installer/releases", NULL, NULL, SW_SHOWNORMAL);
+			ShellExecute(NULL, NULL, L"https://github.com/Night-GUA/YuAC-Installer/releases", NULL, NULL, SW_SHOWNORMAL);
 		}
 	}
 }
