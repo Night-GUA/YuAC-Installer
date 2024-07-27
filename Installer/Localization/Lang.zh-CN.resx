@@ -133,7 +133,7 @@
     <value>YuAC 下载失败</value>
   </data>
   <data name="Download.TONX.Requesting" xml:space="preserve">
-    <value>正在请求下载 TONX</value>
+    <value>正在请求下载 YuAC</value>
   </data>
   <data name="DownloadChannel.Gitee.Desc" xml:space="preserve">
     <value>版本相对落后，但速度有保证</value>
