@@ -1,8 +1,8 @@
 # YuAntiCheat Installer
 
-This is a program made using WinUI3 to automatically install TownOfNext. It will find your AmongUs game and install the BepInEx framework for it, as well as the latest version of YuAC.
+This is a program made using WinUI3 to automatically install YuET. It will find your AmongUs game and install the BepInEx framework for it, as well as the latest version of YuET.
 
-这是个 YuAC 的自动安装程序，它会自动找到您的 AmongUs 游戏目录，并为其自动安装 BepInEx 框架以及最新版本的 YuAC。
+这是个 YuET 的自动安装程序，它会自动找到您的 AmongUs 游戏目录，并为其自动安装 BepInEx 框架以及最新版本的 YuET。
 
 ---
 
@@ -23,4 +23,4 @@ Part of the code for this project comes from [Starward](https://github.com/Scigh
 
 ## 致谢
 
-感谢 KARPED1EM 以及 Starward项目组 对本项目的贡献！
+感谢`KARPED1EM`以及`Starward项目组`对本项目的贡献！
