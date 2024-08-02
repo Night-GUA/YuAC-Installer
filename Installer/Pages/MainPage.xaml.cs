@@ -12,7 +12,7 @@ public sealed partial class MainPage : Page
     public static MainPage Current { get; private set; }
 
     private string AppTitle { get; set; } = Lang.YuACInstaller;
-    private string AppVersion { get; set; } = "1.0.0";
+    private string AppVersion { get; set; } = "1.1.0";
     private string AppFuTitle { get; set; } = Lang.ThanksKPD;
 
     [ObservableProperty]

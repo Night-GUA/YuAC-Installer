@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AllDoneTips" xml:space="preserve">
-    <value>Thank you for installing YuAC!</value>
+    <value>Thank you for installing YuET!</value>
   </data>
   <data name="DeleteUnusedPluginsWarning" xml:space="preserve">
     <value>The following mods will be removed after continuing</value>
@@ -130,10 +130,10 @@
     <value>Failed to downloading BepInEx</value>
   </data>
   <data name="Download.TONX.Failed" xml:space="preserve">
-    <value>Failed to downloading YuAC</value>
+    <value>Failed to downloading YuET</value>
   </data>
   <data name="Download.TONX.Requesting" xml:space="preserve">
-    <value>Requesting download YuAC</value>
+    <value>Requesting download YuET</value>
   </data>
   <data name="DownloadChannel.Gitee.Desc" xml:space="preserve">
     <value>The version is relatively backward</value>
@@ -166,13 +166,13 @@
     <value>Install BepInEx: Pending</value>
   </data>
   <data name="Install.TONX.Done" xml:space="preserve">
-    <value>YuAC Installed</value>
+    <value>YuET Installed</value>
   </data>
   <data name="Install.TONX.Downloading" xml:space="preserve">
-    <value>Downloading YuAC</value>
+    <value>Downloading YuET</value>
   </data>
   <data name="Install.TONX.Pending" xml:space="preserve">
-    <value>Install YuAC: Pending</value>
+    <value>Install YuET: Pending</value>
   </data>
   <data name="InvalidGameFolderTips" xml:space="preserve">
     <value>Invalid Among Us game folder</value>
@@ -202,6 +202,9 @@
     <value>Timeout</value>
   </data>
   <data name="YuACInstaller" xml:space="preserve">
-    <value>YuAC Installer</value>
+    <value>YuET Installer</value>
+  </data>
+  <data name="DownloadChannel.kkGithub.Desc" xml:space="preserve">
+    <value>Stable, Recommended</value>
   </data>
 </root>

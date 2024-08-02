@@ -99,7 +99,7 @@ public sealed partial class DownloadPage : Page, IPage
         string gamePath = SelectPathPage.Current.SelectedPath.TrimEnd('\\').TrimEnd('/');
         string pluginsPath = gamePath + "/BepInEx/plugins";
 
-        // É¾³ý¶àÓàÎÄ¼þ
+        // É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
         try
         {
             var whiteList = GameFilesWhiteList;
@@ -124,14 +124,14 @@ public sealed partial class DownloadPage : Page, IPage
             return;
         }
 
-        // ¼ì²éÊÇ·ñÐèÒª°²×° BepInEx
+        // ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Òªï¿½ï¿½×° BepInEx
         if (CheckIntegrityOfBepInEx(gamePath))
         {
             UpdateBepInExProgress($"{Lang.Install_BepInEx_Done}: {GetBepInExVersion(gamePath)}", 100);
             goto SkippedBepInEx;
         }
 
-        // ÏÂÔØ BepInEx
+        // ï¿½ï¿½ï¿½ï¿½ BepInEx
         DownloadingBepInEx = true; DownloadingPlugin = false;
         string bepInExDownloadRet = DownloadFile(BepInExDownloadUrl, BepInExTempPath).Result;
         if (!string.IsNullOrEmpty(bepInExDownloadRet))
@@ -141,7 +141,7 @@ public sealed partial class DownloadPage : Page, IPage
             return;
         }
 
-        // ½âÑ¹ BepInEx ÖÁÓÎÏ·Ä¿Â¼
+        // ï¿½ï¿½Ñ¹ BepInEx ï¿½ï¿½ï¿½ï¿½Ï·Ä¿Â¼
         UpdateBepInExProgress(Lang.Install_BepInEx_Extracting, null);
         try { ZipFile.ExtractToDirectory(BepInExTempPath, gamePath); }
         catch (Exception ex)
@@ -151,16 +151,16 @@ public sealed partial class DownloadPage : Page, IPage
             return;
         }
 
-        // É¾³ý»º´æÎÄ¼þ£¨²»ÐèÒª±¨´í£©
+        // É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½
         File.Delete(BepInExTempPath);
 
         UpdateBepInExProgress($"{Lang.Install_BepInEx_Done}: {GetBepInExVersion(gamePath)}", 100);
 
     SkippedBepInEx:
 
-        //ÏÂÔØ YuAntiCheat.dll
+        //ï¿½ï¿½ï¿½ï¿½ YuAntiCheat.dll
         DownloadingPlugin = true; DownloadingBepInEx = false;
-        string pluginPath = pluginsPath + "/YuAntiCheat.dll";
+        string pluginPath = pluginsPath + "/YuEzTools.dll";
         if (!Directory.Exists(pluginsPath)) Directory.CreateDirectory(pluginsPath);
         UpdatePluginProgress(Lang.Download_TONX_Requesting, null);
         string pluginUrl = SelectDownlaodChannelPage.SelectedChannel.URLFunc.Invoke();
@@ -180,7 +180,7 @@ public sealed partial class DownloadPage : Page, IPage
 
         UpdatePluginProgress(Lang.Install_TONX_Done, 100);
 
-        //Íê³É
+        //ï¿½ï¿½ï¿½
         AllDone = true;
         FaildMsg = string.Empty;
         PageControl.GetPageByInstance(DonePage.Current).Show();

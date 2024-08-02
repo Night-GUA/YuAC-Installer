@@ -46,7 +46,7 @@ public sealed partial class SelectDownlaodChannelPage : Page, IPage
         Stream stream = res.Content.ReadAsStreamAsync().Result;
         try
         {
-            //»ñÈ¡ÄÚÈÝ
+            //ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
             using StreamReader reader = new(stream);
             result = reader.ReadToEnd();
         }
@@ -110,7 +110,17 @@ public class ModDownloadChannel : IComparable<ModDownloadChannel>
                 RootURL = "github.com",
                 URLFunc = () =>
                 {
-                    return "https://github.com/Night-GUA/YuAntiCheat/releases/latest/download/YuAntiCheat.dll";
+                    return "https://github.com/Team-YuTeam/YuEzTools/releases/latest/download/YuEzTools.dll";
+                }
+            },
+            new()
+            {
+                Name = "kkGithub",
+                Description = Lang.DownloadChannel_kkGithub_Desc,
+                RootURL = "kkgithub.com",
+                URLFunc = () =>
+                {
+                    return "https://kkgithub.com/Team-YuTeam/YuEzTools/releases/latest/download/YuEzTools.dll";
                 }
             },
             new()
@@ -122,9 +132,9 @@ public class ModDownloadChannel : IComparable<ModDownloadChannel>
                 {
                     try
                     {
-                        string jsRaw = SelectDownlaodChannelPage.Get("https://gitee.com/api/v5/repos/xigua_ya/YuAntiCheat/releases/latest");
+                        string jsRaw = SelectDownlaodChannelPage.Get("https://gitee.com/api/v5/repos/xigua_ya/YuEzTools/releases/latest");
                         string latestVer = JsonObject.Parse(jsRaw).GetNamedValue("tag_name").ToString().TrimStart('"').TrimEnd('"');
-                        return $"https://gitee.com/xigua_ya/YuAntiCheat/releases/download/{latestVer}/YuAntiCheat.dll";
+                        return $"https://gitee.com/xigua_ya/YuEzTools/releases/download/{latestVer}/YuEzTools.dll";
                     }
                     catch
                     {

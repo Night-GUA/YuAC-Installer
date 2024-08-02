@@ -13,7 +13,7 @@ internal class FindGameService
     protected static List<(RegistryKey, string)> registryKeysToSearch => new()
     {
         // Config of TONX
-        (Registry.CurrentUser, @"Software\AU-YuAC\"),
+        (Registry.CurrentUser, @"Software\AU-YuET\"),
 
         // Install path of AmongUs
         (Registry.CurrentUser, @"Software\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched\"),
